@@ -38,6 +38,7 @@ FROM dependencies AS build
 # ***** 工作目录 *****
 WORKDIR ${HUGO_PATH}
 
+ARG COMMIT 1
 
 # ***** 克隆源码并生成静态文件 *****
 RUN set -eux \
