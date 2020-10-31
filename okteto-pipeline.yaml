@@ -1,2 +1,2 @@
 deploy:
-- okteto stack deploy --build
+- okteto stack deploy --build --no-cache
